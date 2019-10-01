@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Momentum Clone</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap"
+    />
     <script src="main.js"></script>
-</head>
+  </head>
+  <!-- Utilizing Local Storage, DOM manipulation, Time all insereted through JavaScript -->
+  <body>
+    <time id="time">11:41:00 PM</time>
 
-<body>
-    <h1>test</h1>
-</body>
+    <h1>
+      <span id="greeting">Good Afternoon</span>
+      <span id="name" contenteditable="true">Good Afternoon</span>
+    </h1>
 
+    <h2>What is your focus today?</h2>
+    <h2 id="focus" contenteditable="true">Make Cool Videos</h2>
+  </body>
 </html>
